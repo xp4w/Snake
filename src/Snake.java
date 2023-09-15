@@ -11,5 +11,7 @@ public class Snake extends JPanel{
     Snake(int windowWidth, int windowHeight) {
         this.windowWidth = windowWidth;
         this.windowHeight = windowHeight;
+        setPreferredSize(new Dimension(this.windowWidth, this.windowHeight));
+        setBackground(Color.black);
     }
 }
