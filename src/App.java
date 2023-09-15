@@ -11,5 +11,9 @@ public class App {
         window.setLocationRelativeTo(null);
         window.setResizable(false);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        Snake snakeGame = new Snake(windowWidth, windowHeight);
+        window.add(snakeGame);
+        window.pack();
     }
 }
